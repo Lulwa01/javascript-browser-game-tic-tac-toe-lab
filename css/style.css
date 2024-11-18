@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Charcoal';
+    src: url('./fonts/charcoal.ttf') format('truetype');
+  }
+
+body {
+    font-family: 'Charcoal', sans-serif;
+    background-color: #ffdae1;
+    margin: 0;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -360px;
+    width: 390px;
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: none;
+    font-size: 90px;
+    font-family: "Pangolin";
+    color: #ff779f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 60px;
+    color: #f03167;
+    
+  }
+
+  #message {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: "Pangolin";
+
+  }
+  
+  .players {
+    font-family: "Pangolin";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    margin: 90px;
+    margin-top: -290px; 
+    color: #ff779f;
+  }
+
+  #player1 {
+    transform: rotate(-10deg);
+    }
+
+    #player2 {
+        transform: rotate(10deg);
+        color: #7e7acc;
+        }
+
+    .scores {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 180px;
+        margin-top: -210px; 
+        font-family: "Pangolin";
+        color: black;
+        font-size: 60px;
+    }
+    #reset {
+        background: none;
+        border: none;
+        color: #000000;
+        font-family: "Pangolin";
+        font-size: 25px;
+        margin-left: 1040px;
+        margin-top: 140px;
+        position: absolute;
+        top: 500px;
+        transform: rotate(-7deg);
+    }
+
+    #reset-icon {
+        width: 11%;
+        position: absolute;
+        top: 500px;
+        margin-left: 1010px;
+    }
+
+    #board-template {
+        display: flex;
+        align-items: center;
+        width: 25%;
+        margin-top: -150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #paper-bg {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        background-size: cover; 
+        background-position: center center; 
+        height: 100vh;
+        width: 100%; 
+        position: absolute;
+        top: 0; 
+        left: 0; 
+        opacity: 50%;
+        z-index: -1; 
+    }
+    
+    #lulwa-illustration {
+        position: fixed;
+        bottom: 0; 
+        left: 0; 
+        width: 250px;
+
+    }
+
+    #malak-illustration {
+        position: fixed;
+        bottom: 0; 
+        right: 0; 
+        width: 250px;
+
+    }
+
+    #malak-illustration-mad {
+        opacity: 0;
+        position: fixed;
+        bottom: 0; 
+        right: 0; 
+        width: 313px;
+
+    }
